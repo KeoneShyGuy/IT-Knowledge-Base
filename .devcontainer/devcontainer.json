@@ -1,0 +1,10 @@
+{
+  "name": "WordPress Codespace",
+  "dockerFile": "Dockerfile",
+  "forwardPorts": [80],
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "postCreateCommand": "docker-compose up -d",
+  "remoteUser": "vscode"
+}
